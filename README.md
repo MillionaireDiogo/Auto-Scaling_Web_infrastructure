@@ -1,5 +1,7 @@
 # ALB with EC2 Autoscaling
 
+---
+
 ## The Business Challenge
 
 A small business I worked for faced instability in its web application delivery as user traffic increased. During peak usage, the system often became unresponsive due to fixed compute resources, leading to degraded user experiences and lost business opportunities. Additionally, inconsistent server configurations and limited visibility into system performance made troubleshooting difficult and delayed response times. The lack of an automated scaling mechanism and clear security boundaries further increased operational risk.
@@ -7,6 +9,12 @@ A small business I worked for faced instability in its web application delivery 
 ## The Solution: Automated, Scalable, and Monitored Application Deployment
 
 To resolve these issues, my team implemented a dynamic and secure deployment workflow through several AWS services. The solution was designed to ensure high availability, consistent configuration, and responsive scaling to meet fluctuating demand.
+---
+
+### Architectural Diagram
+
+![Untitled Diagram-Page-3](https://github.com/user-attachments/assets/8dd2c385-61c2-41b8-ab4f-dae39b617b91)
+---
 
 ### Key Workflow Components:
 
