@@ -36,7 +36,7 @@ An **Auto Scaling Group (ASG)** is configured to maintain a fleet of EC2 instanc
 | **Amazon EC2 (Elastic Compute Cloud)** | Hosts the application instances that handle business logic and web traffic. |
 | **EC2 Launch Templates**           | Define instance configurations like AMI, instance type, key pair, and user data for consistent deployments. |
 | **Amazon EC2 Auto Scaling (ASG)**  | Automatically adjusts the number of EC2 instances based on demand and policies. |
-| **Elastic Load Balancing (ALB)**   | Distributes incoming HTTP requests across multiple instances for high availability and fault tolerance. |
+| **Elastic Load Balancing (ELB)**   | Distributes incoming HTTP requests across multiple instances for high availability and fault tolerance. |
 | **Amazon CloudWatch**              | Monitors system performance and triggers alarms based on predefined metrics. |
 | **CloudWatch Alarms**              | Automatically initiate scaling actions or send alerts based on metric thresholds. |
 | **Amazon VPC (Virtual Private Cloud)** | Provides a logically isolated network where all components securely communicate. |
